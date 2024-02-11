@@ -1,0 +1,49 @@
+/* Start of style template */
+:root {
+  --theme-color: #285685;
+  --font-color: #33ff66;
+  --shade1: rgba(242, 38, 19, 0.5);
+  --shade2: rgba(0, 255, 255, 0.5);
+  --theme-font: "VT323", monospace;
+}
+/* End of style template */
+
+/* Start of project style */
+body {
+  background-color: black;
+  font-family: var(--theme-font);
+  color: var(--font-color);
+
+  display: flex;
+  justify-content: center;
+}
+
+.textCont {
+  font-size: 150%;
+  margin: 10%;
+  width: 60%;
+  height: 80%;
+}
+/* End of project style */
+
+/* Start of generating the typing | blinking effect */
+div.textCont::after {
+  content: "|";
+  animation: blinky 1s linear infinite;
+}
+
+@keyframes blinky {
+  0% {
+    opacity: 0;
+  }
+  49.9% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  99.9% {
+    opacity: 1;
+  }
+}
+/* End of generating the typing | blicking effect */

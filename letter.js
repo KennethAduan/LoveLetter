@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   var text =
-    "Hi Accy, thank you for everything you have done. I'm really glad that I met you. I'm hoping for the time na magkakaroon tayo ng free time and we could more time together. Masaya at magaan ang loob ko na makasama ikaw. Praying and hoping for the success natin dalawa. Let's cherish every moment from now on. I dont want to lose you anymore. I will make you proud. Museum date us soon! Advanced Happy Valentines day! 💛 I love you. -kineto";
+    "Hi babe, thank you for everything you have done. I'm really glad that I met you. I'm hoping for the time na magkakaroon tayo ng free time and we could spend more time together. Masaya at magaan ang loob ko na makasama ikaw. Praying and hoping for the success natin dalawa. Let's cherish every moment from now on. I dont want to lose you anymore. I will make you proud. Museum date us soon! Advanced Happy Valentines day! 💛 I love you. -kineto";
   var paragraph = text.split("");
   let i = 0;
 
